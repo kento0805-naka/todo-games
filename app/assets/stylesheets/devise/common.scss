@@ -1,0 +1,25 @@
+.form-page {
+  width: 90%;
+  margin: 0 auto;
+}
+.devise-form-box {
+  height: 600px;
+  border: solid 2px #eeeeee;
+  border-radius: 10px;
+
+  .devise-image {
+    width: 50%;
+    .logo {
+      width: 100%;
+      height: 80%;
+    }
+    .border-line {
+      border-right: 1px solid #eeeeee;
+    }
+  }
+
+  .devise-form {
+    // border: solid 2px blue;
+    width: 50%;
+  }
+}
