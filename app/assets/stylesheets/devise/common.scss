@@ -1,10 +1,10 @@
 .form-page {
   width: 90%;
   margin: 0 auto;
-  height: 100%;
+  height: 100vh;
 }
 .devise-form-box {
-  height: 600px;
+  //   height: 10rem;
   //   border: solid 2px #eeeeee;
   //   border-radius: 10px;
 
@@ -22,11 +22,5 @@
   .devise-form {
     // border: solid 2px blue;
     width: 50%;
-  }
-}
-
-@media (min-width: 768px) {
-  h3 {
-    font-size: 40px;
   }
 }
