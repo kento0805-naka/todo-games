@@ -20,5 +20,13 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  before do
+    @user = create(:user)
+  end
+
+  describe "バリデーション" do
+    example "nameとemailが両方設定されている" do
+      expect(@user).to be_valid
+    end
+  end
 end

@@ -36,6 +36,7 @@ module Myapp
       g.test_framework :rspec
       g.controller_specs false
       g.view_specs false
+      g.routing_specs false
     end
 
     # Don't generate system test files.
